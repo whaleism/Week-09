@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- My CSS -->
+</head>
+<body>
+
+    <div class="container mt-5 mb-5">
+        <div class="row"> <!-- Bootstrap Grid -->
+        <div class="col-lg-4">The Script</div>
+        <div class="col-lg-4">is the</div>
+        <div class="col-lg-4">greatest Irish Band</div>
+        </div>
+            <div class="row"> <!-- Bootstrap Grid -->
+            <div class="col-lg-6">The Script</div>
+            <div class="col-lg-3">is the</div>
+            <div class="col-lg-3">greatest Irish Band</div>
+            </div>
+    </div>
+
+    <div class="container">
+
+        <div class="alert alert-dark" role="alert">Alert Works! Have fun!</div>
+
+        <div class="text-center fs-2 mt-1 mb-1">The Script</div> <!-- First text -->
+
+        <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark"> <!-- Navbar -->
+        <div class="container-fluid"> <!-- Container fluid spans the full width of view point :D -->
+          <a class="navbar-brand" href="#">Navigation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Music/music.html">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+
+      <div class="text-center fs-3 mt-1 mb-1">The Script's Albums</div> <!-- Second text -->
+
+     <table class="table table-secondary table-bordered table-hover"> <!-- Table -->
+        <thead>
+          <tr class="table-dark"> <!-- Row with dark color -->
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>The Script</td>
+            <td>2008</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sciene & Faith</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>#3</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>No Sound Without Silence</td>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Freedom Child</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Sunsets & Full Moons</td>
+            <td>2019</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form> <!-- Form -->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-light">Submit</button>
+      </form>
+
+        <!-- Scripts -->
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <stript src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></stript>
+
+    </div>
+    
+</body>
+</html>
